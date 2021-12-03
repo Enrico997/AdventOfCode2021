@@ -1,5 +1,5 @@
 def day1part1(): 
-    input = open('input.txt', 'r').read().split('\n')
+    input = open('Day1/input.txt', 'r').read().split('\n')
     input = [int(x) for x in input]
     count = 0
     for i in range (len(input)-1): 
@@ -10,7 +10,7 @@ def day1part1():
     print(count)
 
 def day1part2(): 
-    input = open('input.txt', 'r').read().split('\n')
+    input = open('Day1/input.txt', 'r').read().split('\n')
     input = [int(x) for x in input]
     count = 0 
 
